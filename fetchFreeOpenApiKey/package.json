@@ -1,0 +1,20 @@
+{
+  "name": "fetch-free-open-api-key",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "check": "npx tsx index.ts",
+    "fetch-github": "npx tsx fetchKeyFromGithub.ts",
+    "verify": "npx tsx verifyKey.ts",
+    "verify-cost": "npx tsx verifyKeyRemainingCost.ts"
+  },
+  "dependencies": {
+    "openai": "^5.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
